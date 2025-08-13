@@ -1,0 +1,40 @@
+/*Generali*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-weight: 500;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h1{
+    font-weight: 700;
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+}
+
+img{
+    border-radius: 15px 0 0 15px;
+    max-width: 100%;
+}
+
+.card{
+    display: flex;
+    border-radius: 15px;
+    width: 35%;
+    margin: 7% auto;
+}
+
+.col{
+    width: 50%;
+}
+
+.dx{
+    border-radius: 0 15px 15px 0;
+    background-color: white;
+}
