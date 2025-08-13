@@ -41,7 +41,7 @@ h3{
 .dx p,
 .dx div,
 button{
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 /*Colori testo*/
@@ -63,15 +63,23 @@ button{
 /*Immagini*/
 
 img{
-    border-radius: 15px 0 0 15px;
+    border-radius: 10px 0 0 10px;
     max-width: 100%;
+}
+
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
 }
 
 /*Card*/
 
 .card{
     display: flex;
-    width: 35%;
+    width:40%;
     margin: 7% auto;
 }
 
@@ -85,7 +93,7 @@ img{
 
 .dx{
     padding:0px 20px;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 10px 10px 0;
     background-color: white;
 } 
 
@@ -95,8 +103,8 @@ button{
     cursor: pointer;
     color: white;
     vertical-align: middle;
-    padding: 10px 44px;
-    margin: 20px 0 0 0;
+    padding: 10px 60px;
+    margin: 30px 0 0 0;
     border: 0;
     border-radius: 8px;
     background-color: hsl(158, 36%, 37%);
@@ -132,16 +140,24 @@ button:hover{
 
         .dx{
             margin-top: -3px;
-            border-radius: 0 0 15px 15px;
+            border-radius: 0 0 10px 10px;
         } 
 
         img{
-        border-radius: 15px 15px 0 0px;
+        border-radius: 10px 10px 0 0px;
         }
 
         button{
             padding: 10px 90px;
             margin: 20px 0;
+        }
+
+        .desktop{
+        display: none;
+        }
+
+        .mobile{
+        display: block;
         }
     }
 
