@@ -101,3 +101,39 @@ button:hover{
     vertical-align: bottom;
     margin: 0 10px;
 }
+
+/*********************************************************/
+/*Responsive*/
+
+    @media screen and (max-width: 380px) {
+        .card{
+            width: 85%;
+            margin: 20% auto;
+            flex-direction: column;    
+        }
+        
+        .col{
+            width: 100%;
+        }
+
+        .sx{
+            height: 100%;
+        }
+
+        .dx{
+            margin-top: -3px;
+            border-radius: 0 0 15px 15px;
+        } 
+
+        img{
+        border-radius: 15px 15px 0 0px;
+        }
+
+        button{
+            padding: 10px 90px;
+            margin: 20px 0;
+        }
+
+
+
+    }
